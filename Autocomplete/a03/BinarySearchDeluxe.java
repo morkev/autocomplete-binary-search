@@ -64,7 +64,7 @@ public class BinarySearchDeluxe {
     
 //    /**
 //     * My attempt at making first/lastIndexOf recursive. This method, however, 
-//	   * requires 2 more integer parameters, which will make us fail JUnits.
+//     * requires 2 more integer parameters, which will make us fail JUnits.
 //     */
 //    private static <Key> int firstIndexOf(Key[] a, Key key, Comparator<Key> comparator, int low, int high) {
 //        if (a == null || key == null || comparator == null) {
