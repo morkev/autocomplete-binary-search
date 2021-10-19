@@ -22,7 +22,7 @@ public class Term implements Comparable<Term> {
     /**
      * Creates a Term with the given query string and weight.
      * @param query: term to be assigned.
-	 * @param weight: weight the term will have.
+     * @param weight: weight the term will have.
      */
     public Term(String query, double weight) {
         if (query == null) {
