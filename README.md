@@ -53,7 +53,7 @@ public class BinarySearchDeluxe {
 
 <b>Corner cases</b>: each static method should throw a java.lang.NullPointerException if any of its arguments is null. You should assume that the argument array is in sorted order (with respect to the supplied comparator).
 
-<b>Performance requirements</b>: the <i>firstIndexOf()</i> and <i>lastIndexOf()</i> methods should make at most <i>1 + ⌈log2 N⌉</i> compares in the worst case.
+<b>Performance requirements</b>: the <i>firstIndexOf()</i> and <i>lastIndexOf()</i> methods should make at most <i>1 +</i> ⌈<i>log2 N</i>⌉ compares in the worst case.
 
 ## Autocomplete
 In this part, you will implement an immutable data type that provides autocomplete functionality for a given set of string and weights, using Term and BinarySearchDeluxe. To do so, sort the terms in lexicographic order; use binary search to find the set of terms that start with a given prefix; and sort the matching terms in descending order by weight. Organize your program by creating an immutable data type Autocomplete with the following API:
