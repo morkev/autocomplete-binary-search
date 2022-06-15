@@ -183,7 +183,7 @@ Al M
       128297.0  Al Manāqil, Sudan
        99357.0  Al Maţarīyah, Egypt
 ```
-## AutocompleteGUI
+## Autocomplete GUI
 Interactive GUI (optional). Download and compile AutocompleteGUI.java. The program takes the name of a file and an integer k as command-line arguments and provides a GUI for the user to enter queries. It presents the top k matching terms in real time. When the user selects a term, the GUI opens up the results from a Google search for that term in a browser.
 
 ```java
